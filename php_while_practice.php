@@ -117,4 +117,3 @@ for ($i = 0; $i < strlen($seq); $i++) {
         ?>
 </body>
 </html>
-        
