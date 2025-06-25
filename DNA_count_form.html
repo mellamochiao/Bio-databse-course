@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DNA counting</title>
+</head>
+<body>
+<form action="DNA_count_form.php" method="post">
+  Gene name: <input type="text" name="gene"><br>
+  Sequence: <br>
+    <textarea name="sequence" rows="8" cols="80"></textarea><br><br>
+
+    <input type="checkbox" name="count[]" value="mono" checked> Monomer (e.g. A, T, C, G)<br>
+    <input type="checkbox" name="count[]" value="di" checked> Dimer (e.g. AA, AT, AC, AG...)<br><br>
+
+    <input type="submit" value="Count">
+    <input type="reset" value="Reset">
+
+</form>
+</body>
+</html>
