@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>counting_form</title>
+</head>
+<body>
+<form action="counting_form.php" method="post">
+  A: <input type="text" name="a"><br>
+  B: <input type="text" name="b"><br><br>
+
+  <input type="checkbox" name="op[]" value="add"> A + B<br>
+  <input type="checkbox" name="op[]" value="sub"> A - B<br>
+  <input type="checkbox" name="op[]" value="mul"> A x B<br>
+  <input type="checkbox" name="op[]" value="div"> A / B<br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+</body>
+</html>
