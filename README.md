@@ -1,6 +1,6 @@
-# 生物資料庫課程作業練習
+# 生物資料庫簡介與實作
 
-本專案為大學「生物資料庫」課程之作業紀錄，內容涵蓋基本的 HTML 與 PHP 練習，目的是熟悉網頁前後端互動與處理生物資訊的基礎程式能力。
+本專案為成功大學大學「生物資料庫簡介與實作」之課程紀錄，內容涵蓋 HTML 、 PHP 、 MySQL 之練習，目的是熟悉網頁前後端互動與處理生物資料的程式能力。
 
 ## 專案內容
 
@@ -13,6 +13,15 @@
 |  | `student_list.html`, `student_list.php` | 顯示學生資料列表並處理輸出格式 |
 | 其他 | `html_basic.html`, `self_introduction.html` | 基本 HTML 練習與自我介紹頁面 |
 |  | `counting.php`, `counting_html` | 額外練習：數字累加功能 |
+
+
+| 類別       | 檔案名稱                        | 說明                           |
+|------------|----------------------------------|--------------------------------|
+|HTML基礎語法練習|`html_basic.html`, `self_introduction.html`|練習HTML語法、架設自我介紹網站|
+|PHP基礎語法練習|`php_basic.php`, `loop_practice.php`, `while_practice.php`| 練習 PHP 語法 |
+|DNA 序列處理| `DNA_count_form.html`, `DNA_count_form.php`| 建立表單讓使用者輸入 DNA 序列，計算鹼基出現次數、輸出反股DNA序列 |
+
+
 
 ## 🛠 使用技術
 
