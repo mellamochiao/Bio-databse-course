@@ -1,9 +1,9 @@
-# Introduction and Practice of Bioinformatics Databases
+# Introduction and Practice of Bio-Databases
 
-This repository contains coursework for the class **“Introduction and Practice of Bioinformatics Databases”** at National Cheng Kung University.  
-The project includes hands-on practice with **HTML**, **PHP**, and **MySQL**, aiming to familiarize students with basic frontend-backend interaction and biological data processing.
+This repository contains coursework for the class **“Introduction and Practice of Bio-Databases”** 
+The project includes practice with **HTML**, **PHP**, and **MySQL**, aiming to familiarize basic frontend-backend interaction and biological data processing.
 
-## 📁 Project Contents
+## Project Contents
 
 | Category             | File Names                                                                 | Description                                                                 |
 |----------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -14,16 +14,16 @@ The project includes hands-on practice with **HTML**, **PHP**, and **MySQL**, ai
 | Data Querying        | `gene_search.html`, `gene_search.php`                                       | A gene search form that retrieves and displays relevant information        |
 | MySQL Integration    | `student_list.html`, `student_list.php`                                     | Stores user-submitted data into a MySQL database and displays it in a table|
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML**: Frontend structure and form interface
 - **PHP**: Server-side scripting and logic handling
 - **MySQL**: Data storage and retrieval
-- **Linux Server (Ubuntu)**: Deployment environment
+- **Linux Server (Ubuntu)**
 - **Apache**: Web server software for running PHP/HTML files
 - **SSH**: Remote access to the server via command line
 
-## 🌐 Execution Environment
+## Execution Environment
 
 This project is deployed on the **PBMB Lab server** (Ubuntu Linux 24.04) at National Cheng Kung University.  
 The web services are powered by the Apache server and accessible only within the university network.
