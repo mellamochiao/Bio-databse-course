@@ -1,28 +1,32 @@
-# 生物資料庫簡介與實作
+# Introduction and Practice of Bioinformatics Databases
 
-本專案為成功大學大學「生物資料庫簡介與實作」之課程紀錄，內容涵蓋 HTML 、 PHP 、 MySQL ，目的是熟悉網頁前後端互動與處理生物資料的程式能力。
+This repository contains coursework for the class **“Introduction and Practice of Bioinformatics Databases”** at National Cheng Kung University.  
+The project includes hands-on practice with **HTML**, **PHP**, and **MySQL**, aiming to familiarize students with basic frontend-backend interaction and biological data processing.
 
-## 專案內容
+## 📁 Project Contents
 
-| 類別       | 檔案名稱                        | 說明                           |
-|------------|----------------------------------|--------------------------------|
-|HTML基礎語法|`html_basic.html`, `self_introduction.html`|練習HTML語法、架設自我介紹網站|
-|PHP基礎語法|`php_basic.php`, `loop_practice.php`, `while_practice.php`| 練習 PHP 語法 |
-|網頁前後端操作|`counting.php`, `counting_html`|建立表單讓使用者輸入數字，送出表單輸出計算結果|
-|DNA序列處理| `DNA_count_form.html`, `DNA_count_form.php`, `DNA_reverse.html`, `DNA_reverse.php` | 建立表單讓使用者輸入 DNA 序列，計算鹼基出現次數、輸出反股DNA序列 |
-|資料查詢|`gene_search.html`, `gene_search.php`|建立表單讓使用者輸入基因名稱並顯示相關資訊|
-|連結MySQL資料庫|`student_list.html`, `student_list.php`|將使用者輸入之資料存入MySQL內，並能查看MySQL表格內之資料|
+| Category             | File Names                                                                 | Description                                                                 |
+|----------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| HTML Basics          | `html_basic.html`, `self_introduction.html`                                 | Practicing basic HTML syntax; building a personal introduction webpage     |
+| PHP Basics           | `php_basic.php`, `loop_practice.php`, `while_practice.php`                  | Practicing PHP fundamentals and loop structures                            |
+| Frontend-Backend Interaction | `counting.php`, `counting_html`                                              | A form for users to input numbers, then process and display the result     |
+| DNA Sequence Handling| `DNA_count_form.html`, `DNA_count_form.php`, `DNA_reverse.html`, `DNA_reverse.php` | A form that allows users to input a DNA sequence, count nucleotide frequency, and generate the reverse complement |
+| Data Querying        | `gene_search.html`, `gene_search.php`                                       | A gene search form that retrieves and displays relevant information        |
+| MySQL Integration    | `student_list.html`, `student_list.php`                                     | Stores user-submitted data into a MySQL database and displays it in a table|
 
+## 🛠 Technologies Used
 
-## 使用技術
-- **HTML**：撰寫前端頁面與表單介面
-- **PHP**：處理表單資料、進行邏輯運算
-- **MySQL**：資料儲存與讀取
-- **Linux Server（Ubuntu）**
-- **Apache**：網站伺服器軟體，提供 PHP/HTML 網頁服務
-- **SSH**：遠端登入伺服器並操作檔案
+- **HTML**: Frontend structure and form interface
+- **PHP**: Server-side scripting and logic handling
+- **MySQL**: Data storage and retrieval
+- **Linux Server (Ubuntu)**: Deployment environment
+- **Apache**: Web server software for running PHP/HTML files
+- **SSH**: Remote access to the server via command line
 
-## 執行環境說明
-本專案部署於 **成功大學熱植所PBMBLab** 伺服器（Ubuntu Linux 24.04），由 Apache 伺服器執行 PHP/HTML 程式。由於伺服器僅開放校內網路存取，因此僅能在校園網域中使用網頁功能。
+## 🌐 Execution Environment
 
-範例網址格式：http://140.116.56.72/~H24121206/檔名
+This project is deployed on the **PBMB Lab server** (Ubuntu Linux 24.04) at National Cheng Kung University.  
+The web services are powered by the Apache server and accessible only within the university network.
+
+**URL Format Example**:  
+http://140.116.56.72/~H24121206/filename 
